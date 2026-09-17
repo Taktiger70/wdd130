@@ -77,7 +77,8 @@ aside h2 {
 }
 
 aside img {
-    height: auto;
+    display: block;
+    margin: auto;
 }
 
 aside p {
