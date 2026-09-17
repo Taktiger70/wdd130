@@ -1,18 +1,19 @@
 * {
-   margin: 0; 
-   padding: 0;
-} 
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #eeeeee;
 }
 
-header,footer {
-    background-color:#333333;
+header,
+footer {
+    background-color: #333333;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 5%;
 }
 
 header {
@@ -32,14 +33,16 @@ h1 {
 picture {
     display: block;
     margin-bottom: 30pix;
-   }
+}
 
 img {
     width: 600px;
     height: auto;
 }
 
-{! rever a borda da foto  margin: 2pix #d3d1d1  ;  }
+    {
+    ! rever a borda da foto margin: 2pix #d3d1d1;
+}
 
 section {
     background-color: #d9d9d9;
@@ -49,17 +52,17 @@ section {
 }
 
 section p {
-    margin-bottom: 5px;;
+    margin-bottom: 5px;
+    ;
 }
 
 section h2 {
     margin-bottom: 15px;
-    border-bottom: 1px solid #333333;;
+    border-bottom: 1px solid #333333;
+    ;
     padding-bottom: 10px;
 }
 
 section ul {
     margin-left: 20px;
 }
-
-

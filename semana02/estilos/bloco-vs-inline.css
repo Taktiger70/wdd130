@@ -8,12 +8,18 @@ body {
     margin: 1rem;
 }
 
-p,
-div {
+main h2, main p{
+
+    margin: 0 auto;
+}
+
+div, p {
     background-color: beige;
     margin: 1rem;
     padding: 1rem;
 }
+
+
 
 span {
     color: navy;
@@ -39,4 +45,10 @@ code {
 .question {
     background-color: #3d503d;
     color: #fff;
+}
+
+img{
+    margin: 0 auto;
+    width: 20%;
+    height: auto;
 }
