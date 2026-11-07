@@ -79,6 +79,8 @@ aside h2 {
 aside img {
     display: block;
     margin: auto;
+    width: 200px;
+    height: auto;
 }
 
 aside p {
@@ -87,7 +89,6 @@ aside p {
     font-family: arial;
     font-size: small;
     text-align: center;
-
 }
 
 footer {
