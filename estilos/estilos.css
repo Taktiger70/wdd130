@@ -89,6 +89,7 @@ aside p {
     font-family: arial;
     font-size: small;
     text-align: center;
+    padding: 0;
 }
 
 footer {
