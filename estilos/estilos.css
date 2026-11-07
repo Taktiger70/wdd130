@@ -84,7 +84,7 @@ aside img {
 aside p {
     text-align: center;
     line-height: 1.3rem;
-    font: serif;
+    font: arial;
     font-size: small;
     text-align: center;
 
@@ -94,7 +94,7 @@ footer {
     background-color: #333333;
     color: #fff;
     text-align: center;
-    margin-top: 15;
-    border-top: 1 solid #0b0909;
-    font: Arial, sans-serif;
+    margin-top: 15px;
+    border-top: 1px solid #0b0909;
+    font: Arial;
 }
