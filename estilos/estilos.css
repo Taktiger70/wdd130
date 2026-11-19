@@ -1,5 +1,6 @@
 * {
-
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -62,11 +63,6 @@ aside {
     width: 600px;
     height: auto;
     display: block;
-    border: 0.6px solid #babbbb;
-    padding: 5px;
-    background-color: #eaf6f0;
-    color: #0b0909;
-    margin: 30px auto 0 auto;
 }
 
 aside h2 {
@@ -94,9 +90,19 @@ aside p {
 
 footer {
     background-color: #333333;
-    color: #fff;
     text-align: center;
+    color: #fff;
     margin-top: 15px;
     border-top: 1px solid #0b0909;
     font-family: Arial;
+}
+
+/* Seletores de Classe */
+.caixa {
+    margin: 1rem;
+    border: 1px solid #0b0909;
+    padding: 1rem;
+    background-color: #333333;
+    color: #0b0909;
+    text-align: center;
 }
