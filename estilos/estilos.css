@@ -54,6 +54,8 @@ main img {
     margin: 0 auto 20px auto
 }
 
+float: right;
+
 main p {
     text-align: center;
     line-height: 1.5rem;
