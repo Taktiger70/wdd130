@@ -1,4 +1,18 @@
-* {
+/*:root {}*/
+/*:root {
+    --cor-primaria: #edf4ef;;
+    /* verde-floresta */
+--cor-secundaria: #333333;
+/* bege médio */
+--cor-destaque1: #585bb4;
+/* azul-escuro acinzentado */
+--cor-destaque2: #ffffff;
+/*amarelo-claro dourado */
+--fonte-titulo: "Times New Roman"
+--fonte-body: Arial
+}
+
+*/ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
