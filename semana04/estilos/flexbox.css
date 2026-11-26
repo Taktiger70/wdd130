@@ -1,13 +1,33 @@
 body {
+
     font-family: Helvetica, Arial, sans-serif;
     margin: 1rem;
 }
 
 .flex-container {
-    border: 3px dashed darkcyan;
+    border: 2px dashed rgb(102, 247, 247);
     background-color: lightyellow;
+
+    /* flex tem como default alinhamento row (em linha)*/
     display: flex;
+
+    /*conteiner flexivel e os itens quebram linha quando necessário */
     flex-wrap: wrap;
+    *
+    /* para determinar uma  quebra de linha horizontal
+         os itens iriam para baixo quando não cabem*/
+    flex-direction: row;
+
+    /* para sair do defaul row (linha) do flex e determinar uma  quebra de linha vertical.
+         os itens iriam para a direta quando não cabem 
+    flex-direction: column*/
+
+    /* alinhamento igualitário entre todas as partes*/
+    justify-content: space evenly;
+
+    /*alinha cada item a partir de uma linha ficticia horizontal bem no meio do conteiner
+    e os item assumem suas alturas minimas especificadas no css
+    align-items: center;*/
 }
 
 .flex-item {
